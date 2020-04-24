@@ -1,0 +1,23 @@
+[psychotic]
+name=Psychotic Ninja Enterprise Linux Repository
+baseurl=http://packages.psychotic.ninja/$releasever/base/$basearch/RPMS/
+enabled=0
+protect=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-psychotic
+gpgcheck=1
+
+[psychotic-plus]
+name=Psychotic Ninja Enterprise Linux Repository - Additional Components
+baseurl=http://packages.psychotic.ninja/$releasever/plus/$basearch/RPMS/
+enabled=0
+protect=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-psychotic
+gpgcheck=1
+
+[psychotic-testing]
+name=Psychotic Ninja Enterprise Linux Repository - Testing - Not Stable
+baseurl=http://packages.psychotic.ninja/$releasever/testing/$basearch/RPMS/
+enabled=0
+protect=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-psychotic
+gpgcheck=1
